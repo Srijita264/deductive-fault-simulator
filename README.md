@@ -7,8 +7,8 @@ Python deductive stuck-at fault simulator for combinational netlists.
 - Random-vector mode with coverage-vs-vectors plot and CSV output.
 
 ## Usage
-    python deductive_fsim.py CIRCUIT --vector BITS [--faults FILE] [--out FILE]
-    python deductive_fsim.py CIRCUIT --random N --seed S --plot coverage.png
+    python deductive_faultsim.py CIRCUIT --vector BITS [--faults FILE] [--out FILE]
+    python deductive_faultsim.py CIRCUIT --random N --seed S --plot coverage.png
 
 ## Validation
 Detected-fault lists match the course sample output and agree with an independent serial fault simulator and a bit-parallel simulator on all assigned vectors.
@@ -21,4 +21,4 @@ Detected-fault lists match the course sample output and agree with an independen
 | s344f_2 | 8.9 | 22.4 |
 | s349f_2 | 8.9 | 22.4 |
 
-Full details are in `report.pdf`.
+Full details are in `Fault Simulator Report.pdf`.
